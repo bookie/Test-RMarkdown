@@ -11,3 +11,6 @@ GPGGA <- log[grepl('\\$GPGGA', log)]
 GPS <- parse.GPGGA(GPGGA)
 GPS$latlon <- with(GPS, paste(latitude, longitude, sep=":"))
 ```
+
+## R with Map
+<http://www.molecularecologist.com/2012/09/making-maps-with-r/>
